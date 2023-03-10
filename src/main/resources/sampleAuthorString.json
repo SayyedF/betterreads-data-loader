@@ -1,0 +1,46 @@
+{
+  "bio": {
+    "type": "/type/text",
+    "value": "Abraham Grace Merritt was born in Beverly, New Jersey. In 1894, he moved with his family to Philadelphia, Pennsylvania. He worked to become a lawyer, but instead became a journalist. In 1912 he became assistant editor of The American Weekly until 1937, when he became its editor. He also wrote fiction, including eight novels."
+  },
+  "name": "A. Merritt",
+  "links": [
+    {
+      "url": "http://en.wikipedia.org/wiki/A._Merritt",
+      "type": {
+        "key": "/type/link"
+      },
+      "title": "Wikipedia page"
+    }
+  ],
+  "personal_name": "Abraham Merritt",
+  "wikipedia": "http://en.wikipedia.org/wiki/A._Merritt",
+  "death_date": "21 August 1943",
+  "alternate_names": [
+    "Abraham Merritt",
+    "Abraham Grace Merritt"
+  ],
+  "created": {
+    "type": "/type/datetime",
+    "value": "2008-04-01T03:28:50.625462"
+  },
+  "photos": [
+    6254096
+  ],
+  "last_modified": {
+    "type": "/type/datetime",
+    "value": "2020-09-30T12:21:52.547543"
+  },
+  "latest_revision": 11,
+  "key": "/authors/OL769457A",
+  "birth_date": "20 January 1882",
+  "revision": 11,
+  "type": {
+    "key": "/type/author"
+  },
+  "remote_ids": {
+    "viaf": "9850578",
+    "wikidata": "Q330376",
+    "isni": "0000000114675787"
+  }
+}

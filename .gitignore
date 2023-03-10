@@ -4,14 +4,8 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+/src/main/resources/secure-connect-betterreads.zip
+
 
 ### IntelliJ IDEA ###
 .idea
@@ -19,16 +13,5 @@ target/
 *.iml
 *.ipr
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
 ### VS Code ###
 .vscode/
-/src/main/resources/secure-connect-betterreads.zip

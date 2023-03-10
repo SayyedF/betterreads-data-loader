@@ -1,11 +1,15 @@
-#spring.main.allow-circular-references: true
+spring.main.allow-circular-references: true
+datadump.location:
+    author: C:\Users\sfjil\Documents\Spring\betterreads-data-loader\src\main\resources\test-authors.txt
+    works: C:\Users\sfjil\Documents\Spring\betterreads-data-loader\src\main\resources\test-works.txt
+
 spring:
   data:
     cassandra:
       keyspace-name: main
-      username: LZOKYpmSKYEkLulpccTZXILl
-      password: Qggn9DybZYR5Z5sD7XAHu00gPm+dIC_YlZaYp.Kwy4D9MG5Z9wFAiPXioElkGR+C3EF8L+Y2_sdrQ8QriUSX1SEd62mqpzdkv.PIo6ZPO+u270U48MZMWFYOgo4_HbOc
-      schema-action: recreate-drop-unused
+      username: your-username
+      password: your-password
+      schema-action: create_if_not_exists
       request:
         timeout: 20s
       connection:
@@ -13,21 +17,14 @@ spring:
         init-query-timeout: 20s
   application:
     name: betterreads
-#  security:
-#    oauth2:
-#      client:
-#        registration:
-#          github:
-#            client-id: Iv1.09bf2753b889b2cf
-#            client-secret: 09fe13ef4e10c4a60557f8ac54fa3e856f78c756
 
 datastax.astra:
   secure-connect-bundle: secure-connect-betterreads.zip
 
 astra:
   db:
-    id: e167649a-f673-4ae2-864b-a87109489d15-1
+    id: astra-id
     region: europe-west1
     keyspace: main
     application:
-      token: AstraCS:LZOKYpmSKYEkLulpccTZXILl:3301f84865f1ad64d1359a7bb278de0c9a16cfec67c8c059ab329580d25d9ed0
+      token: AstraCS:your-token
